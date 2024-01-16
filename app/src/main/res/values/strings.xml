@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">GlobalJournal</string>
+
+    <string name="enter_username">Enter username</string>
+    <string name="enter_password">Enter password</string>
+    <string name="login">Login</string>
+
+    <string name="help">Help</string>
+    <string name="information">Information</string>
+    <string name="information_text">Here to Help!</string>
+
+    <string name="journal_entries">Journal Entries</string>
+    <string name="new_entry">New Entry</string>
+    <string name="entry_content">Content</string>
+    <string name="entry_title">Title</string>
+    <string name="entry_id">Entry ID</string>
+    <string name="id">ID</string>
+    <string name="date">Date</string>
+    <string name="entry_location">Coordinates</string>
+    <string name="entry_date">dd-mm-yyyy</string>
+    <string name="entry_details">Entry Details</string>
+    <string name="entry_id_hint">Enter entry ID</string>
+    <string name="entry_title_hint">Enter Entry title</string>
+    <string name="entry_date_hint">Enter entry date</string>
+    <string name="submitted_entry_data_successfully">Submitted entry successfully</string>
+    <string name="submitting_entry_data_failed">Submitting entry data failed. Try again</string>
+    <string name="entry_content_hint">\"Today was AMAZING!\"</string>
+    <string name="location_coordinates">Latitude: %1$.6f, Longitude: %2$.6f</string>
+    <string name="location_not_found">Location not found</string>
+    <string name="location_permission_denied">Permission for location access denied</string>
+    <string name="location_failure">Location request failed: %1$s</string>
+    <string name="get_location">Retrieve location</string>
+    <string name="latitude">"Latitude: "</string>
+    <string name="longitude">"Longitude: "</string>
+    <string name="capture_picture">Capture picture</string>
+    <string name="camera_button_description">Camera button</string>
+    <string name="submit">Submit</string>
+
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+    <string name="csv">CSV file</string>
+    <string name="export_to_csv">Export data to CSV</string>
+</resources>

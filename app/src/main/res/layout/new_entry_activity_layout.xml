@@ -1,0 +1,152 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/gjblue"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/background_template_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/header_top_margin"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:id="@+id/headerNewEntry"
+            android:text="@string/new_entry"
+            android:textColor="@color/white"
+            android:textSize="@dimen/header_text_size" />
+
+        <TextView
+            android:id="@+id/headerEntryId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/header_top_margin"
+            android:text="@string/entry_id"
+            android:textColor="@color/black"
+            android:textSize="@dimen/header_text_size" />
+
+        <EditText
+            android:id="@+id/entryId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/entry_id_hint"
+            android:inputType="text"
+            android:textSize="@dimen/input_text_size" />
+
+        <TextView
+            android:id="@+id/headerEntryTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/header_top_margin"
+            android:text="@string/entry_title"
+            android:textColor="@color/black"
+            android:textSize="@dimen/header_text_size" />
+
+        <EditText
+            android:id="@+id/entryTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/entry_title_hint"
+            android:inputType="text"
+            android:textSize="@dimen/input_text_size" />
+
+        <TextView
+            android:id="@+id/headerEntryDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/header_top_margin"
+            android:text="@string/date"
+            android:textColor="@color/black"
+            android:textSize="@dimen/header_text_size" />
+
+        <EditText
+            android:id="@+id/entryDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/entry_date"
+            android:inputType="date"
+            android:textSize="@dimen/input_text_size" />
+
+        <TextView
+            android:id="@+id/headerEntryContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/header_top_margin"
+            android:text="@string/entry_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/header_text_size" />
+
+        <EditText
+            android:id="@+id/entryContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/entry_content_hint"
+            android:inputType="text"
+            android:textSize="@dimen/input_text_size" />
+
+        <TextView
+            android:id="@+id/locationData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/location_not_found"
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/readCurrentLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/yellowish"
+                android:src="@android:drawable/ic_menu_mylocation"
+                android:layout_margin="@dimen/button_margin"
+                android:text="@string/get_location"
+                android:textAllCaps="false" />
+
+            <ImageButton
+                android:id="@+id/capturePicture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/button_margin"
+                android:background="@color/yellowish"
+                android:src="@android:drawable/ic_menu_camera"
+                android:contentDescription="@string/camera_button_description"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/capturedImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/button_margin"
+            android:background="@drawable/rounded_btn"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:text="@string/submit"
+            android:textSize="@dimen/input_text_size" />
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,130 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/gjblue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".journalEntry.JournalEntryDetailsActivity">
+
+
+    <include layout="@layout/background_template_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/header_top_margin"
+        android:textAlignment="center"
+        android:id="@+id/headerJournalEntryDetails"
+        android:text="@string/entry_details"
+        android:textSize="@dimen/header_text_size" />
+
+    <TextView
+        android:id="@+id/headerId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/header_top_margin"
+        android:text="@string/id"
+        android:textStyle="bold"
+        android:textColor="@color/gold"
+        android:textSize="@dimen/header_text_size" />
+
+    <TextView
+        android:id="@+id/entryId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:textSize="@dimen/input_text_size" />
+
+    <TextView
+        android:id="@+id/headerEntryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/header_top_margin"
+        android:text="@string/entry_title"
+        android:textStyle="bold"
+        android:textColor="@color/gold"
+        android:textSize="@dimen/header_text_size" />
+
+    <TextView
+        android:id="@+id/entryTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:textSize="@dimen/input_text_size" />
+
+    <TextView
+        android:id="@+id/headerDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/header_top_margin"
+        android:text="@string/date"
+        android:textStyle="bold"
+        android:textColor="@color/gold"
+        android:textSize="@dimen/header_text_size" />
+
+    <TextView
+        android:id="@+id/entryDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:textSize="@dimen/input_text_size" />
+
+    <TextView
+        android:id="@+id/headerLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/header_top_margin"
+        android:text="@string/entry_location"
+        android:textStyle="bold"
+        android:textColor="@color/gold"
+        android:textSize="@dimen/header_text_size" />
+
+    <TextView
+        android:id="@+id/latitudeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:textSize="@dimen/input_text_size" />
+
+    <TextView
+        android:id="@+id/longitudeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:textSize="@dimen/input_text_size" />
+
+    <TextView
+        android:id="@+id/headerEntryContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/header_top_margin"
+        android:text="@string/entry_content"
+        android:textStyle="bold"
+        android:textColor="@color/gold"
+        android:textSize="@dimen/header_text_size" />
+
+    <TextView
+        android:id="@+id/entryContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:textSize="@dimen/input_text_size" />
+
+</LinearLayout>
+</FrameLayout>
+
+

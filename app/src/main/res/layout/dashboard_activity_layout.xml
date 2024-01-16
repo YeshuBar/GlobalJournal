@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gjblue"
+    tools:context=".dashboard.DashboardActivity">
+    <ImageView
+        android:paddingTop="70dp"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:src="@drawable/gj3"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/journalEntries"
+        android:layout_width="250dp"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="@string/journal_entries"
+        android:background="@drawable/rounded_btn"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/newEntry"
+        android:layout_width="250dp"
+        android:textStyle="bold"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_btn"
+        android:text="@string/new_entry"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="48sp" />
+</LinearLayout>
